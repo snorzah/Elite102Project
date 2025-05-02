@@ -1,7 +1,7 @@
 from sqlConnection import * # Import the methods
 # The Main menu function, where everything else branches from
 def mainMenu():
-    hasAccount = input("Welcome to ___ Banking!\nDo you have an Account?(yes/no) ")
+    hasAccount = input("Welcome to Hamzah's Banking!\nDo you have an Account?(yes/no) ")
     if (hasAccount == "yes"):
         withAccountMenu()
     elif (hasAccount == "no"):
